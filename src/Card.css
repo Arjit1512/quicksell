@@ -1,0 +1,75 @@
+.card{
+   background-color: white;
+   width: 240px;
+   margin:0% 4%;
+   margin-bottom: 3%;
+   padding:0% 2%;
+   border-radius: 2%;
+   height:80px;
+   box-shadow: 5px 3px 25px rgba(192, 178, 178, 0.5); 
+}
+.card h6{
+    color:grey;
+}
+.card h3 {
+    font-weight: 500;
+    white-space: nowrap; /* Prevents the text from wrapping */
+    overflow: hidden; /* Hides the overflowed content */
+    text-overflow: ellipsis; /* Adds the ellipsis (...) */
+}
+
+.flex-row{
+    display:flex;
+    flex-direction:row;
+    padding-top: 3vh;
+}
+.silver-circle{
+    width:10px;
+    height:10px;
+    background-color: gray;
+    border-radius: 100%;
+}
+.card p{
+    margin-top: 0;
+    margin-left: 2%;
+    color:gray;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+
+.card {
+    /* existing styles */
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status-icon, .priority-icon, .menu-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tag-container {
+    display: flex;
+    align-items: center;
+}
+
+.silver-circle {
+    margin-right: 5px;
+}
+
+.group-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
