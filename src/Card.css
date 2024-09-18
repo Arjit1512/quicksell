@@ -1,11 +1,11 @@
 .card{
    background-color: white;
-   width: 240px;
+   width: 85%;
    margin:0% 4%;
    margin-bottom: 3%;
    padding:0% 2%;
    border-radius: 2%;
-   height:80px;
+   height:23%;
    box-shadow: 5px 3px 25px rgba(192, 178, 178, 0.5); 
 }
 .card h6{
@@ -13,9 +13,9 @@
 }
 .card h3 {
     font-weight: 500;
-    white-space: nowrap; /* Prevents the text from wrapping */
-    overflow: hidden; /* Hides the overflowed content */
-    text-overflow: ellipsis; /* Adds the ellipsis (...) */
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
 }
 
 .flex-row{
@@ -35,11 +35,6 @@
     color:gray;
     font-size: 0.8rem;
     font-weight: 600;
-}
-
-
-.card {
-    /* existing styles */
 }
 
 .card-header {

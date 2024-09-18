@@ -130,7 +130,6 @@ body {
   font-size: 12px;
 }
 
-/* Add icons for different priorities */
 .column h2[data-priority="Urgent"]::before {
   background-color: #fb7185;
 }
