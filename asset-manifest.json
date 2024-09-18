@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/quicksell/static/css/main.05a0c870.css",
+    "main.js": "/quicksell/static/js/main.93edec1f.js",
+    "static/js/453.419a5d54.chunk.js": "/quicksell/static/js/453.419a5d54.chunk.js",
+    "static/media/3-dot-menu.svg": "/quicksell/static/media/3-dot-menu.4caedb468f68b915626e0e35045257b3.svg",
+    "static/media/No-priority.svg": "/quicksell/static/media/No-priority.7218b139313728c6a4efa8da6e34852b.svg",
+    "static/media/down.svg": "/quicksell/static/media/down.b19d146ddbaad572f0f5cebb6dbdf766.svg",
+    "index.html": "/quicksell/index.html",
+    "static/media/Img - Low Priority.svg": "/quicksell/static/media/Img - Low Priority.491e21f9000cb90112dea470dbb72650.svg",
+    "static/media/Img - Medium Priority.svg": "/quicksell/static/media/Img - Medium Priority.83775665307e977d62e9b0fc7fb95cc4.svg",
+    "static/media/Img - High Priority.svg": "/quicksell/static/media/Img - High Priority.5024fd0d163cb13c95f2d29079e2974d.svg",
+    "static/media/In-progress.svg": "/quicksell/static/media/In-progress.d4beb72fbc94f765259fc46ecaba9779.svg",
+    "static/media/SVG - Urgent Priority.svg": "/quicksell/static/media/SVG - Urgent Priority.9b67f75d5459d4d66573ef9f8e6f6841.svg",
+    "static/media/Backlog.svg": "/quicksell/static/media/Backlog.97adf3356b7d2e775ef530f7aed206e0.svg",
+    "static/media/To-do.svg": "/quicksell/static/media/To-do.c01d92afcffeef58b2cd9ae080df1f58.svg",
+    "main.05a0c870.css.map": "/quicksell/static/css/main.05a0c870.css.map",
+    "main.93edec1f.js.map": "/quicksell/static/js/main.93edec1f.js.map",
+    "453.419a5d54.chunk.js.map": "/quicksell/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05a0c870.css",
+    "static/js/main.93edec1f.js"
+  ]
+}
