@@ -61,12 +61,10 @@ const App = () => {
     };
 
     fetchData();
-  }, []);
-
-  useEffect(() => {
     localStorage.setItem('selectedOption', selectedOption);
     localStorage.setItem('sortOption', sortOption);
   }, [selectedOption, sortOption]);
+
 
   const groupTickets = () => {
     const grouped = {};
@@ -105,14 +103,10 @@ const App = () => {
 
   const groupedTickets = groupTickets();
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
   return (
     <>
       <div className="menu-container">
-        <button className="display-button" onClick={toggleMenu}>
+        <button className="display-button" onClick={()=>setIsOpen(!isOpen)}>
           <MenuIcon className="icon" /> Display <DownIcon />
         </button>
         {isOpen && (
