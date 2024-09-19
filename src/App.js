@@ -14,11 +14,11 @@ import { ReactComponent as LowIcon } from './icons/Img - Low Priority.svg';
 import { ReactComponent as NoPriorityIcon } from './icons/No-priority.svg';
 
 const priorityNames = {
-  4: 'No priority',
-  3: 'Urgent',
-  2: 'Low',
-  1: 'High',
-  0: 'Medium'
+  4: 'Urgent',
+  3: 'High',
+  2: 'Medium',
+  1: 'Low',
+  0: 'No priority',
 };
 
 const userNames = {
@@ -45,8 +45,9 @@ const priorityIcons = {
 
 const App = () => {
   const [data, setData] = useState({ tickets: [] });
-  const [selectedOption, setSelectedOption] = useState('priority');
-  const [sortOption, setSortOption] = useState('priority');
+  const [selectedOption, setSelectedOption] = useState(localStorage.getItem('selectedOption') || 'priority');
+  const [sortOption, setSortOption] = useState(localStorage.getItem('sortOption') || 'priority');
+
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
@@ -61,6 +62,11 @@ const App = () => {
 
     fetchData();
   }, []);
+
+  useEffect(() => {
+    localStorage.setItem('selectedOption', selectedOption);
+    localStorage.setItem('sortOption', sortOption);
+  }, [selectedOption, sortOption]);
 
   const groupTickets = () => {
     const grouped = {};
